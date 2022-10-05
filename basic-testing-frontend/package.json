@@ -6,11 +6,13 @@
   "scripts": {
     "test": "vitest --run --reporter verbose",
     "test:watch": "vitest",
-    "start": "http-server -c-1"
+    "start": "http-server -c-1",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
+    "@vitest/coverage-c8": "^0.23.4",
     "http-server": "^14.1.1",
     "install": "^0.13.0",
     "npm": "^8.19.2",
